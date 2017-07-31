@@ -11,8 +11,6 @@ import com.zhoxin.higithub.R;
 /**
  * Created by zhouxin on 2017/7/30.
  * CoordinatorLayout_FloatingActionButton
- *
- *
  */
 
 public class FloatingActionButton extends BaseActivity implements View.OnClickListener {
