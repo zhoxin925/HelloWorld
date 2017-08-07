@@ -69,5 +69,11 @@ public class TabLayoutView extends BaseActivity{
     private void setFragment() {
         viewPager.setAdapter(new TablayoutAdapter(fragments, titles, getSupportFragmentManager()));
         tablayout.setupWithViewPager(viewPager);
+        /**
+         * tablayoutatapter中没有实现getPageTitle(int p）方法时必须实现以下方法来显示title？？？？？？
+         */
+//        for(int i=0;i<titles.size();i++) {
+//            tablayout.getTabAt(i).setText(titles.get(i));
+//        }
     }
 }
