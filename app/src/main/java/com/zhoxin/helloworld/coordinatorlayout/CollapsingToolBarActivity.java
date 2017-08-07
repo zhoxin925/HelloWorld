@@ -7,4 +7,5 @@ import com.zhoxin.helloworld.init.BaseActivity;
  */
 
 public class CollapsingToolBarActivity extends BaseActivity {
+
 }
