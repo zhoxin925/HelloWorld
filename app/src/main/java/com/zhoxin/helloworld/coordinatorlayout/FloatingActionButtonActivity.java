@@ -5,7 +5,7 @@ import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.zhoxin.helloworld.BaseActivity;
+import com.zhoxin.helloworld.init.BaseActivity;
 import com.zhoxin.higithub.R;
 
 /**
@@ -13,7 +13,7 @@ import com.zhoxin.higithub.R;
  * CoordinatorLayout_FloatingActionButton
  */
 
-public class FloatingActionButton extends BaseActivity implements View.OnClickListener {
+public class FloatingActionButtonActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

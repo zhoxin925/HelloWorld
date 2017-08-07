@@ -1,4 +1,4 @@
-package com.zhoxin.helloworld;
+package com.zhoxin.helloworld.init;
 
 import android.app.Application;
 import android.content.Context;

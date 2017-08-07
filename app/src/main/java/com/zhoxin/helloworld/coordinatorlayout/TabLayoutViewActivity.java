@@ -7,7 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 
-import com.zhoxin.helloworld.BaseActivity;
+import com.zhoxin.helloworld.init.BaseActivity;
 import com.zhoxin.helloworld.commonadapter.TablayoutAdapter;
 import com.zhoxin.higithub.R;
 
@@ -19,7 +19,7 @@ import java.util.List;
  * coordinator + appbarlayout(toolbar+tablayout)
  */
 
-public class TabLayoutView extends BaseActivity{
+public class TabLayoutViewActivity extends BaseActivity{
     private Toolbar toolbar;
     private TabLayout tablayout;
     private ViewPager viewPager;

@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.zhoxin.helloworld.BaseFragment;
+import com.zhoxin.helloworld.init.BaseFragment;
 import com.zhoxin.higithub.R;
 
 /**
